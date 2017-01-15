@@ -19,7 +19,7 @@ import static driver.DriverFactory.quit;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(dryRun = false, strict = true, features = "src/test/java/features/", tags = {"@AmazonProductSearch"}, monochrome = true, format = {
-        "pretty", "html:target/cucumber-htmlreport/rightmove",
+        "pretty", "html:target/cucumber-htmlreport/amazontest",
 })
 public class TestRunner {
 
