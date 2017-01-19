@@ -44,28 +44,28 @@ formatter.match({
   "location": "StepDefs.amazon_co_uk_is_open()"
 });
 formatter.result({
-  "duration": 5808790312,
+  "duration": 8812058758,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefs.i_click_Sign_in()"
 });
 formatter.result({
-  "duration": 931739951,
+  "duration": 851147509,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefs.enter_valid_user_name_password()"
 });
 formatter.result({
-  "duration": 3265795596,
+  "duration": 3501294195,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefs.i_am_logged_in()"
 });
 formatter.result({
-  "duration": 142510699,
+  "duration": 162852512,
   "status": "passed"
 });
 formatter.scenario({
@@ -101,7 +101,7 @@ formatter.match({
   "location": "StepDefs.amazon_co_uk_is_open_and_iam_loggdin()"
 });
 formatter.result({
-  "duration": 8756759714,
+  "duration": 10478593607,
   "status": "passed"
 });
 formatter.match({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "StepDefs.iSearchForIphoneCase(int)"
 });
 formatter.result({
-  "duration": 1280779101,
+  "duration": 1316590862,
   "status": "passed"
 });
 formatter.match({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "StepDefs.theFirstResultHasTheWordIphoneInIt(int)"
 });
 formatter.result({
-  "duration": 2659685107,
+  "duration": 2523512639,
   "status": "passed"
 });
 formatter.scenario({
@@ -168,7 +168,7 @@ formatter.match({
   "location": "StepDefs.amazon_co_uk_is_open_and_iam_loggdin()"
 });
 formatter.result({
-  "duration": 9318935615,
+  "duration": 10189964075,
   "status": "passed"
 });
 formatter.match({
@@ -181,15 +181,15 @@ formatter.match({
   "location": "StepDefs.iAddIphoneCaseToMyBasket(int)"
 });
 formatter.result({
-  "duration": 7349631416,
-  "status": "passed"
+  "duration": 11817071944,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".a-size-medium\"}\nCommand duration or timeout: 10.53 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027Divyas-MBP\u0027, ip: \u0027192.168.0.15\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.6\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d46.0, platform\u003dMAC, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: b53b2d90-1299-8c4e-8da3-04eeffedada5\n*** Element info: {Using\u003dcss selector, value\u003d.a-size-medium}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)\n\tat Pages.AmazonUserLoginPage.productaddbasket(AmazonUserLoginPage.java:31)\n\tat stepdef.StepDefs.iAddIphoneCaseToMyBasket(StepDefs.java:69)\n\tat ✽.And I add iphone 7 case to my basket(amazonpagetests.feature:19)\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".a-size-medium\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027Divyas-MBP\u0027, ip: \u0027192.168.0.15\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.6\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: driver.version: unknown\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/bc/xqxdv6kx4jqc7c2jht3vggww0000gn/T/anonymous1722430205581137646webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)\n\tat \u003canonymous class\u003e.fxdriver.Timer.prototype.setTimeout/\u003c.notify(file:///var/folders/bc/xqxdv6kx4jqc7c2jht3vggww0000gn/T/anonymous1722430205581137646webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "StepDefs.iCheckMyBasketTotal()"
 });
 formatter.result({
-  "duration": 1605915350,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -201,7 +201,6 @@ formatter.match({
   "location": "StepDefs.itShouldMatchThePriceOfIphoneCase(int)"
 });
 formatter.result({
-  "duration": 145075,
-  "status": "passed"
+  "status": "skipped"
 });
 });

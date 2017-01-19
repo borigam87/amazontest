@@ -20,7 +20,8 @@ public class DriverFactory {
    }
 
     public void waitForPageLoad(){
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     public String getTitle(){

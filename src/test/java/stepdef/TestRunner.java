@@ -2,7 +2,10 @@ package stepdef;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+
+import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
@@ -18,12 +21,12 @@ import static driver.DriverFactory.quit;
  */
 
 @RunWith(Cucumber.class)
-@CucumberOptions(dryRun = false, strict = true, features = "src/test/java/features/", tags = {"@AmazonProductSearch"}, monochrome = true, format = {
+@CucumberOptions(dryRun = false, strict = true, features = "src/test/java/features/", tags = {"*.*"}, monochrome = true, format = {
         "pretty", "html:target/cucumber-htmlreport/amazontest",
 })
 public class TestRunner {
 
-    @BeforeClass
+    @Before
     public static void setUp(){
         try {
             System.out.println(" **********Calling set up in runner");
@@ -36,7 +39,7 @@ public class TestRunner {
 
     }
 
-    @AfterClass
+   @After
     public static void tearDown() {
         quit();
 
